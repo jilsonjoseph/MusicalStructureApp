@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jilson.musicalstructureapp.PaymentActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text=" In this activity Google Pay api is used for payment
+         Step 1: Create PaymentsClient instance
+                 Step 2: Call isReadyToPay API
+          Step 3: Create PaymentDataRequest object
+Step 4: Create OnClickListener object
+                     Step 5: Handle the PaymentData response object
+      "/>
+
+
+</LinearLayout>

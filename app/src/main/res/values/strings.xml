@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+
+    <!--string names of songs-->
+    <string name="song_1">Song 1</string>
+    <string name="song_2">Song 2</string>
+    <string name="song_3">Song 3</string>
+    <string name="song_4">Song 4</string>
+    <string name="song_5">Song 5</string>
+    <string name="song_6">Song 6</string>
+    <string name="song_7">Song 7</string>
+    <string name="song_8">Song 8</string>
+    <string name="song_9">Song 9</string>
+
+    <!--string names of artists-->
+    <string name="artist_1">Artist 1</string>
+    <string name="artist_2">Artist 2</string>
+    <string name="artist_3">Artist 3</string>
+    <string name="artist_4">Artist 4</string>
+    <string name="artist_5">Artist 5</string>
+
+    <!--string names of genres-->
+    <string name="genre_1">Genre 1</string>
+    <string name="genre_2">Genre 2</string>
+    <string name="genre_3">Genre 3</string>
+    <string name="genre_4">Genre 4</string>
+    <string name="genre_5">Genre 5</string>
+    <string name="genre_6">Genre 6</string>
+    <string name="genre_7">Genre 7</string>
+
+    <!--new song stings-->
+    <string name="new_song_1">New Song 1</string>
+    <string name="new_song_2">New Song 2</string>
+    <string name="new_song_3">New Song 3</string>
+    <string name="new_song_4">New Song 4</string>
+    <string name="new_song_5">New Song 5</string>
+    <string name="new_song_6">New Song 6</string>
+
+    <!--name of menu items string-->
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+
+    <string name="music_store">Music Store</string>
+
+    <string name="buy">Buy</string>
+
+</resources>

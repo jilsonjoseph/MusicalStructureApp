@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jilson.musicalstructureapp.MainActivity">
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/music_store_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/MusicStoreColor"
+            android:text="@string/music_store"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/songs_text_view"
+            style="@style/MenuTextStyle"
+            android:background="@color/ColorWhenSelected"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="@string/songs"/>
+
+        <TextView
+            android:id="@+id/albums_text_view"
+            style="@style/MenuTextStyle"
+            android:text="@string/albums"/>
+
+        <TextView
+            android:id="@+id/artists_text_view"
+            style="@style/MenuTextStyle"
+            android:text="@string/artists"/>
+
+        <TextView
+            android:id="@+id/genres_text_view"
+            style="@style/MenuTextStyle"
+            android:text="@string/genres"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="22"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_1" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_2" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_3" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_4" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_5" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_6" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_7" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_8" />
+
+            <TextView
+                style="@style/MusicLibraryTextStyle"
+                android:text="@string/song_9" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/white"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/now_playing_text_view"
+            style="@style/MusicControlLibrary"
+            android:text="@string/song_1"/>
+
+        <ImageButton
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/previous"/>
+
+
+        <ImageButton
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play"/>
+
+
+        <ImageButton
+            android:layout_width="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/next"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
